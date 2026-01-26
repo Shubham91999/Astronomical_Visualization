@@ -1,0 +1,39 @@
+# General
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Python
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+client/node_modules/
+dist/
+client/dist/
+.eslintcache
+
+# Project Specific
+server/test_server.py
+server/debug_fits.py
+data/temp_*.fits
+data/temp_*.fit
+
+# Logs and local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

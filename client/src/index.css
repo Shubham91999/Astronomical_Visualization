@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-space-900 text-white antialiased;
+    background-image: 
+      radial-gradient(circle at 50% 0%, #1a1a3a 0%, transparent 50%),
+      radial-gradient(circle at 0% 50%, #151525 0%, transparent 50%);
+  }
+}
+
+.glass-panel {
+  @apply bg-space-800/60 backdrop-blur-lg border border-white/10 rounded-xl shadow-xl;
+}
+
+.input-field {
+  @apply bg-space-900/50 border border-white/20 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-space-highlight transition-colors;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-space-accent to-purple-600 hover:from-purple-600 hover:to-space-accent text-white font-bold py-2 px-6 rounded-lg shadow-lg shadow-purple-900/50 transition-all transform hover:scale-105 active:scale-95;
+}
+
+.card-title {
+  @apply text-xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400;
+}
