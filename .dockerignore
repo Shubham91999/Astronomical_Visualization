@@ -1,0 +1,11 @@
+**/node_modules
+**/venv
+**/.git
+**/.vscode
+**/dist
+**/.DS_Store
+notebooks/
+star_plots/
+server/__pycache__/
+client/node_modules/
+client/dist/
