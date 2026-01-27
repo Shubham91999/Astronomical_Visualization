@@ -9,7 +9,24 @@ A modern, full-stack dashboard for exploring the stars. Transform raw astronomic
 - **🌍 Habitability Calc**: Calculate the "Goldilocks Zone" (Habitable Zone inner/outer boundaries) for stars based on their luminosity.
 - **🔍 Stellar Search**: Instant filtering of the star catalog by color, spectral class, or type.
 
-## 🛠️ Technology Stack
+## � Screenshots
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+*Full dashboard view with H-R Diagram, Goldilocks Zone Calculator, and FITS Inspector.*
+
+![H-R Diagram with Habitability Calculator](screenshots/hr-diagram-habitability.png)
+*Interactive Hertzsprung-Russell Diagram with real-time habitability zone calculations for selected stars.*
+
+![FITS Inspector - Cosmic Magma](screenshots/fits-cosmic-magma.png)
+*FITS Image Inspector rendering the Horsehead Nebula with the Cosmic Magma colormap.*
+
+![FITS Inspector - Stellar Bone](screenshots/fits-stellar-bone.png)
+*FITS image visualization using the custom Stellar Bone colormap with detailed header metadata.*
+
+![FITS Inspector - Monochrome Gray](screenshots/fits-monochrome-gray.png)
+*Classic monochrome grayscale rendering for scientific analysis.*
+
+## �🛠️ Technology Stack
 
 | Layer | Technology |
 | :--- | :--- |
